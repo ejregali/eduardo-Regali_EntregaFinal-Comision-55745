@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CODERMEDIC - Proyecto Final CoderHouse JS</title>
+        <link rel="icon" href="img/favicon.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/luxon@2.1.0/build/global/luxon.min.js"></script>
+
+    </head>
+
+    <body>
+        <div class="container col-6 mt-5 t">
+            <div class="text-center">
+                <img src="img/logo.png" width="400px" style="padding: 10px;" alt="">
+                <h1>Formulario de Ingreso de Pacientes</h1>
+            </div>
+            
+            <form id="pacienteForm" class="mt-4">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" class="form-control" id="apellido" required>
+                </div>
+                <div class="form-group">
+                    <label for="documento">Documento:</label>
+                    <input type="text" class="form-control" id="documento" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                </br>
+                <button id="btnAgregar" class="btn btn-primary mx-auto">Agregar Paciente</button>
+            </form>
+        </div>
+
+
+    <div class="container col-6 mt-5">
+        <h2 class="text-center">Listado de Pacientes En Espera</h2>
+        <ul id="listaPacientes" class="list-group">
+            <!-- Render de pacientes -->
+        </ul>
+    </div>
+
+    <div class="container col-6 mt-4">
+        <h2 class="text-center">Pacientes en Atencion</h2>
+        <ul id="listaPacientesAtendidos" class="list-group">
+            <!-- Aquí se mostrarán los pacientes atendidos -->
+        </ul>
+    </div>
+
+
+    <!-- Footer -->
+
+
+    <div class="container text-center">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="antendidos.html" class="nav-link px-2 text-muted">Atendidos</a></li>
+            </ul>
+            <img src="img/firma.png" width="250px" alt="">
+            <p class="text-center text-muted">© 2023 EJREGALI S.A.</p>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+
+
+
+</body>
+
+</html>
