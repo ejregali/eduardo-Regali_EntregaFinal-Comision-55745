@@ -1,0 +1,306 @@
+[
+    {
+      "id": "HC12345",
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "dni": "12345678",
+      "email": "juan.perez@example.com",
+      "fecha_horario": "2023-01-15T09:30:00"
+    },
+    {
+      "id": "HC23456",
+      "nombre": "Maria",
+      "apellido": "Gonzalez",
+      "dni": "23456789",
+      "email": "maria.gonzalez@example.com",
+      "fecha_horario": "2023-02-20T14:45:00"
+    },
+    {
+      "id": "HC34567",
+      "nombre": "Carlos",
+      "apellido": "Lopez",
+      "dni": "34567890",
+      "email": "carlos.lopez@example.com",
+      "fecha_horario": "2023-03-10T11:15:00"
+    },
+    {
+      "id": "HC45678",
+      "nombre": "Luisa",
+      "apellido": "Martinez",
+      "dni": "45678901",
+      "email": "luisa.martinez@example.com",
+      "fecha_horario": "2023-04-05T16:30:00"
+    },
+    {
+      "id": "HC56789",
+      "nombre": "Pedro",
+      "apellido": "Sanchez",
+      "dni": "56789012",
+      "email": "pedro.sanchez@example.com",
+      "fecha_horario": "2023-05-12T08:00:00"
+    },
+    {
+      "id": "HC67890",
+      "nombre": "Ana",
+      "apellido": "Ramirez",
+      "dni": "67890123",
+      "email": "ana.ramirez@example.com",
+      "fecha_horario": "2023-06-27T13:20:00"
+    },
+    {
+      "id": "HC78901",
+      "nombre": "Diego",
+      "apellido": "Fernandez",
+      "dni": "78901234",
+      "email": "diego.fernandez@example.com",
+      "fecha_horario": "2023-07-18T10:45:00"
+    },
+    {
+      "id": "HC89012",
+      "nombre": "Laura",
+      "apellido": "Torres",
+      "dni": "89012345",
+      "email": "laura.torres@example.com",
+      "fecha_horario": "2023-08-09T15:00:00"
+    },
+    {
+      "id": "HC90123",
+      "nombre": "Eduardo",
+      "apellido": "Gomez",
+      "dni": "90123456",
+      "email": "eduardo.gomez@example.com",
+      "fecha_horario": "2023-09-22T07:55:00"
+    },
+    {
+      "id": "HC01234",
+      "nombre": "Silvia",
+      "apellido": "Lopez",
+      "dni": "01234567",
+      "email": "silvia.lopez@example.com",
+      "fecha_horario": "2023-10-30T12:10:00"
+    },
+    {
+      "id": "HC11223",
+      "nombre": "Roberto",
+      "apellido": "Fernandez",
+      "dni": "11223344",
+      "email": "roberto.fernandez@example.com",
+      "fecha_horario": "2023-11-05T14:20:00"
+    },
+    {
+      "id": "HC22334",
+      "nombre": "Sofia",
+      "apellido": "Gutierrez",
+      "dni": "22334455",
+      "email": "sofia.gutierrez@example.com",
+      "fecha_horario": "2023-12-10T09:15:00"
+    },
+    {
+      "id": "HC33445",
+      "nombre": "Ricardo",
+      "apellido": "Lopez",
+      "dni": "33445566",
+      "email": "ricardo.lopez@example.com",
+      "fecha_horario": "2023-01-14T10:30:00"
+    },
+    {
+      "id": "HC44556",
+      "nombre": "Lorena",
+      "apellido": "Perez",
+      "dni": "44556677",
+      "email": "lorena.perez@example.com",
+      "fecha_horario": "2023-02-23T15:45:00"
+    },
+    {
+      "id": "HC55667",
+      "nombre": "Alejandro",
+      "apellido": "Martinez",
+      "dni": "55667788",
+      "email": "alejandro.martinez@example.com",
+      "fecha_horario": "2023-03-12T11:20:00"
+    },
+    {
+      "id": "HC66778",
+      "nombre": "Cecilia",
+      "apellido": "Gomez",
+      "dni": "66778899",
+      "email": "cecilia.gomez@example.com",
+      "fecha_horario": "2023-04-17T16:00:00"
+    },
+    {
+      "id": "HC77889",
+      "nombre": "Jorge",
+      "apellido": "Rodriguez",
+      "dni": "77889900",
+      "email": "jorge.rodriguez@example.com",
+      "fecha_horario": "2023-05-25T08:45:00"
+    },
+    {
+      "id": "HC88990",
+      "nombre": "Andrea",
+      "apellido": "Sanchez",
+      "dni": "88990011",
+      "email": "andrea.sanchez@example.com",
+      "fecha_horario": "2023-06-30T12:30:00"
+    },
+    {
+      "id": "HC99001",
+      "nombre": "Gustavo",
+      "apellido": "Gonzalez",
+      "dni": "99001122",
+      "email": "gustavo.gonzalez@example.com",
+      "fecha_horario": "2023-07-22T10:15:00"
+    },
+    {
+      "id": "HC00112",
+      "nombre": "Patricia",
+      "apellido": "Ramirez",
+      "dni": "00112233",
+      "email": "patricia.ramirez@example.com",
+      "fecha_horario": "2023-08-18T14:50:00"
+    },
+    {
+      "id": "HC11223",
+      "nombre": "Raul",
+      "apellido": "Fernandez",
+      "dni": "11223344",
+      "email": "raul.fernandez@example.com",
+      "fecha_horario": "2023-09-02T09:10:00"
+    },
+    {
+      "id": "HC22334",
+      "nombre": "Marcela",
+      "apellido": "Torres",
+      "dni": "22334455",
+      "email": "marcela.torres@example.com",
+      "fecha_horario": "2023-10-28T13:40:00"
+    },
+    {
+      "id": "HC33445",
+      "nombre": "Eduardo",
+      "apellido": "Gutierrez",
+      "dni": "33445566",
+      "email": "eduardo.gutierrez@example.com",
+      "fecha_horario": "2023-11-15T11:05:00"
+    },
+    {
+      "id": "HC44556",
+      "nombre": "Luis",
+      "apellido": "Perez",
+      "dni": "44556677",
+      "email": "luis.perez@example.com",
+      "fecha_horario": "2023-12-03T16:15:00"
+    },
+    {
+      "id": "HC55667",
+      "nombre": "Carolina",
+      "apellido": "Lopez",
+      "dni": "55667788",
+      "email": "carolina.lopez@example.com",
+      "fecha_horario": "2023-01-19T08:20:00"
+    },
+    {
+      "id": "HC66778",
+      "nombre": "Gabriel",
+      "apellido": "Martinez",
+      "dni": "66778899",
+      "email": "gabriel.martinez@example.com",
+      "fecha_horario": "2023-02-08T12:00:00"
+    },
+    {
+      "id": "HC77889",
+      "nombre": "Natalia",
+      "apellido": "Gomez",
+      "dni": "77889900",
+      "email": "natalia.gomez@example.com",
+      "fecha_horario": "2023-03-25T09:55:00"
+    },
+    {
+      "id": "HC88990",
+      "nombre": "Alberto",
+      "apellido": "Rodriguez",
+      "dni": "88990011",
+      "email": "alberto.rodriguez@example.com",
+      "fecha_horario": "2023-04-14T13:30:00"
+    },
+    {
+      "id": "HC99001",
+      "nombre": "Susana",
+      "apellido": "Sanchez",
+      "dni": "99001122",
+      "email": "susana.sanchez@example.com",
+      "fecha_horario": "2023-05-29T11:40:00"
+    },
+    {
+      "id": "HC00112",
+      "nombre": "Fernando",
+      "apellido": "Gonzalez",
+      "dni": "00112233",
+      "email": "fernando.gonzalez@example.com",
+      "fecha_horario": "2023-06-10T15:25:00"
+    },
+    {
+      "id": "HC11223",
+      "nombre": "Claudia",
+      "apellido": "Ramirez",
+      "dni": "11223344",
+      "email": "claudia.ramirez@example.com",
+      "fecha_horario": "2023-07-04T08:50:00"
+    },
+    {
+      "id": "HC22334",
+      "nombre": "Miguel",
+      "apellido": "Fernandez",
+      "dni": "22334455",
+      "email": "miguel.fernandez@example.com",
+      "fecha_horario": "2023-08-12T12:35:00"
+    },
+    {
+      "id": "HC33445",
+      "nombre": "Valeria",
+      "apellido": "Lopez",
+      "dni": "33445566",
+      "email": "valeria.lopez@example.com",
+      "fecha_horario": "2023-09-19T11:00:00"
+    },
+    {
+      "id": "HC44556",
+      "nombre": "Hernan",
+      "apellido": "Perez",
+      "dni": "44556677",
+      "email": "hernan.perez@example.com",
+      "fecha_horario": "2023-10-08T16:05:00"
+    },
+    {
+      "id": "HC55667",
+      "nombre": "Laura",
+      "apellido": "Martinez",
+      "dni": "55667788",
+      "email": "laura.martinez@example.com",
+      "fecha_horario": "2023-11-02T08:30:00"
+    },
+    {
+      "id": "HC66778",
+      "nombre": "Lucas",
+      "apellido": "Gomez",
+      "dni": "66778899",
+      "email": "lucas.gomez@example.com",
+      "fecha_horario": "2023-12-11T13:15:00"
+    },
+    {
+      "id": "HC77889",
+      "nombre": "Carla",
+      "apellido": "Rodriguez",
+      "dni": "77889900",
+      "email": "carla.rodriguez@example.com",
+      "fecha_horario": "2023-01-27T10:40:00"
+    },
+    {
+      "id": "HC88990",
+      "nombre": "Federico",
+      "apellido": "Sanchez",
+      "dni": "88990011",
+      "email": "federico.sanchez@example.com",
+      "fecha_horario": "2023-02-14T15:50:00"
+    }
+  ]

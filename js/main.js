@@ -212,7 +212,39 @@ function actualizarListaPacientesAtendidos() {
         
         }
 
+//Comsumir JSON
+
+document.getElementById("cargarHistoricos").addEventListener('click', cargarJSON)
+
+function cargarJSON() {
+    fetch("json/historicos.json")
+    .then(function(res) {
+        return res.json();
+    })
+    .then(function(historicos){
+        let html = '';
+        historicos.forEach(function(pacientesHistoricos){
+            html += `
+
+            <table class="table table-striped">
+            <tr>
+            <th scope="col">${pacientesHistoricos.id}</th>
+            <th scope="col">${pacientesHistoricos.nombre}</th>
+            <th scope="col">${pacientesHistoricos.apellido}</th>
+            <th scope="col">${pacientesHistoricos.dni}</th>
+            <th scope="col">${pacientesHistoricos.email}</th>
+            <th scope="col">${pacientesHistoricos.fecha_horario}</th>
+            </tr>
+        </table>`;
+        })
+        document.getElementById("listaPacientesHistoricos").innerHTML = html;
+    })
+}
+
 
 
 actualizarListaPacientes();
 actualizarListaPacientesAtendidos();
+
+
+ 
