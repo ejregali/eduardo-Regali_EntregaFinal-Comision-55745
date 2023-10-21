@@ -102,8 +102,8 @@ Toastify({
         
 // Agrega el botón de "Atender Paciente"
                 li.innerHTML = `
-                <div class="card">
-                    <div class="card-body col-9">
+                <div class=" row card col-8">
+                    <div class="card-body col-6">
                         <h4 class="card-title">HC${paciente.id}</h4>
                         <h3 class="card-title">${paciente.nombre} ${paciente.apellido}</h3>
                         <p class="card-text">DNI: ${paciente.documento}</p>
@@ -112,8 +112,11 @@ Toastify({
                         <p class="card-text">Tiempo de espera: ${tiempoTranscurrido}</p>
                         <button class="btn card-link btn-danger btn-sm float-right" onclick="eliminarPaciente(${paciente.id})">Eliminar</button>
                         <button class="btn card-link btn-success btn-sm float-right" onclick="atenderPaciente(${paciente.id})">Atender</button>
-                        </div>
-                </div>`;
+                    </div>
+                    
+                </div><div class="row card-body col-3">
+                    <img src="https://c0.klipartz.com/pngpicture/876/134/gratis-png-cerveza-botella-vino-bebidas-gaseosas-cerveza-cerveza-thumbnail.png" width="200px" alt="">
+                    </div>`;
                 listaPacientes.appendChild(li);
             });
         
