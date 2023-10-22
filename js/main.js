@@ -113,10 +113,7 @@ Toastify({
                         <button class="btn card-link btn-danger btn-sm float-right" onclick="eliminarPaciente(${paciente.id})">Eliminar</button>
                         <button class="btn card-link btn-success btn-sm float-right" onclick="atenderPaciente(${paciente.id})">Atender</button>
                     </div>
-                    
-                </div><div class="row card-body col-3">
-                    <img src="https://c0.klipartz.com/pngpicture/876/134/gratis-png-cerveza-botella-vino-bebidas-gaseosas-cerveza-cerveza-thumbnail.png" width="200px" alt="">
-                    </div>`;
+`;
                 listaPacientes.appendChild(li);
             });
         
